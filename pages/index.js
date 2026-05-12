@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <h1>💕 Romantic Messages</h1>
+      <h1 className={styles.title}>💕 Romantic Messages</h1>
       <div className={styles.messageBox}>{message}</div>
       <button onClick={randomMessage} className={styles.button}>
         Show Another
